@@ -92,6 +92,11 @@
     .demo-link:hover { background: var(--accent); color: #fff; }
     .demo-link-btn { display: inline-flex; align-items: center; gap: 6px; font-size: 14px; font-weight: 600; color: var(--accent); background: none; border: 1.5px solid var(--accent); padding: 9px 18px; border-radius: var(--radius-sm); cursor: pointer; transition: background 0.2s, color 0.2s; align-self: flex-start; font-family: inherit; }
     .demo-link-btn:hover { background: var(--accent); color: #fff; }
+    .stakeholder-card { margin-top: 28px; background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 28px; box-shadow: var(--shadow); }
+    .stakeholder-card h3 { font-size: 18px; font-weight: 800; margin-bottom: 8px; }
+    .stakeholder-card p { font-size: 14px; color: var(--text-secondary); line-height: 1.65; margin-bottom: 16px; }
+    .stakeholder-list { display: flex; flex-wrap: wrap; gap: 10px; }
+    .stakeholder-pill { display: inline-flex; align-items: center; min-height: 36px; padding: 8px 14px; border-radius: 999px; background: var(--tag-bg); color: var(--tag-text); font-size: 13px; font-weight: 600; }
 
     /* MODAL */
     .modal-overlay { display: none; position: fixed; inset: 0; background: rgba(13,17,23,0.7); z-index: 200; align-items: center; justify-content: center; padding: 24px; }
@@ -442,6 +447,15 @@
         <div class="module-tags"><span class="module-tag">Compare Engine</span><span class="module-tag">表达设计</span></div>
         <p>验证「标签 + 核心表达 + 选择建议 + 多维对比表」的前端层级可读性。核心验证 expression_schema 的品类化配置效果——让用户在 10 秒内看清几款游戏的本质差异，完成最后一步选择。</p>
         <button class="demo-link-btn" onclick="openModal()">查看对比 Demo →</button>
+      </div>
+    </div>
+    <div class="stakeholder-card">
+      <h3>参与成员</h3>
+      <div class="stakeholder-list">
+        <span class="stakeholder-pill">策略产品：王予茜，张文略，陈田颖 </span>
+        <span class="stakeholder-pill">策略运营：孙煜时，鲍越，韩紫薇 </span>
+        <span class="stakeholder-pill">游戏运营：吴俊杰</span>
+        <span class="stakeholder-pill">开发：高猛，周兴华，陈强</span>
       </div>
     </div>
   </div>
